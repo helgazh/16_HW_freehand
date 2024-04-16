@@ -1,0 +1,96 @@
+@import "../reset/normalize.css";
+@import "../reset/reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+main .container{
+    max-width: 1170px;
+    margin: 100px 135px;
+}
+header .container{
+    max-width: 1170px;
+    margin: 22.5px 135px;
+}
+footer .container{
+    padding: 40px 135px;
+}
+
+span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7690A8;
+    margin-bottom: 15px;
+}
+h1{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+    margin-bottom: 40px;
+}
+h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21.28px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+    margin-bottom: 15px;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #16133D;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #3DB370;
+}
+a:hover{
+    cursor: pointer;
+    color: #3db3708c;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.items div + div{
+    margin-left: 30px;
+}
+.items__card{
+    padding: 40px;
+    border: 1px solid #E5EAF4;
+    border-radius: 10px;
+}
+.items__card:hover{
+    border: 1px solid #3DB370;
+}
+.items__card svg{
+    width: 38.75px;
+    height: 36px;
+    padding: 14px 13px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.items__card--svg:hover{
+    cursor: pointer;
+    path: red;
+    fill: green;
+}
+footer{
+    background-color: #16133D;
+}
